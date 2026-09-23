@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#10283d"><meta name="description" content="Daily professional English practice for work.">
+  <link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+  <title>Professional English at Work</title>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar"><button class="brand" data-view="home" aria-label="Go home"><span class="brand-mark">PE</span><span>Professional English <em>at Work</em></span></button><button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">◐</button></header>
+    <main id="app" tabindex="-1"></main>
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <button data-view="home" class="active"><span>⌂</span>Home</button><button data-view="practice"><span>▣</span>Practice</button><button data-view="challenge"><span>◇</span>Challenge</button><button data-view="progress"><span>◔</span>Progress</button><button data-view="settings"><span>⚙</span>Settings</button>
+    </nav>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="cards.js"></script><script src="app.js"></script>
+</body>
+</html>
